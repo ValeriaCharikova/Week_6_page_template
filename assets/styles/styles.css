@@ -30,3 +30,6 @@
   .subsection4 {
     grid-column: 1/3;
   }
+  .aside {
+    background-color: rgb(221, 236, 203);
+  } 
