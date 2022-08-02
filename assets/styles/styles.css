@@ -10,3 +10,23 @@
     grid-column: 1/4;
     text-align: center;
   }
+  .main {
+    background-color: #fff8e3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    align-items: flex-end;
+  }
+  .subsection2,
+  .subsection3,
+  .subsection4 {
+    background-color: rgb(254, 234, 185);
+  }
+  .subsection1 {
+    grid-column: 1/3;
+    align-self: stretch;
+  }
+  .subsection4 {
+    grid-column: 1/3;
+  }
